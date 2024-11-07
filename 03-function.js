@@ -41,3 +41,27 @@ square(5);
 square(19);
 
 square(190890);
+
+// Type 3: Function with argument and return value
+
+function multiply(n1, n2, n3){
+
+    console.log("Given numbers: ", n1, n2, n3);
+
+    var result = n1 * n2 * n3;
+
+    return result;
+
+}
+
+var returnValue = multiply(10, 2, 2);
+
+console.log("Multiplication is: ", returnValue);
+
+console.log("======================");
+
+ 
+
+var resultValue = multiply(50, 70, 80);
+
+console.log("Multiplication is: ", resultValue);
